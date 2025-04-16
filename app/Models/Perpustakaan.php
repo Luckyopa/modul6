@@ -9,6 +9,7 @@ class Perpustakaan extends Model
 {
     use HasFactory;
     protected $table = 'perpustakaan';
+    public $timestamps = false;
     protected $fillable = [
         'namaPerpus',
         'alamatPerpus',

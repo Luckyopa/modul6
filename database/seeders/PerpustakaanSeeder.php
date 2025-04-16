@@ -15,9 +15,9 @@ class PerpustakaanSeeder extends Seeder
     public function run(): void
     {
 
-    Perpustakaan::factory()
-    ->count(5)
-    ->has(Buku::factory()->count(5))
-    ->create();
-    }
+        Perpustakaan::factory()
+        ->has(Buku::factory()->count(5))
+        ->count(5)
+        ->create();
+}   
 }

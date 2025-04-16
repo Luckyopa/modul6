@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('alamatPerpus');
             $table->string('noTelpPerpus');
             $table->string('emailPerpus');
+
         });
     }
 
